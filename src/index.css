@@ -44,11 +44,11 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Under the Moonlight theme colors */
-    --moonlight-lightest: 240 100% 90%; /* #CCCCFF */
-    --moonlight-light: 240 40% 70%;     /* #A3A3CC */
-    --moonlight-medium: 240 40% 50%;    /* #5C5C99 */
-    --moonlight-dark: 240 60% 30%;      /* #292966 */
+    /* Updated Under the Moonlight theme colors - darker palette */
+    --moonlight-lightest: 240 100% 80%; /* #CCCCFF */
+    --moonlight-light: 240 35% 64%;     /* #A3A3CC */
+    --moonlight-medium: 240 41% 48%;    /* #5C5C99 */
+    --moonlight-dark: 240 58% 29%;      /* #292966 */
   }
 
   .dark {

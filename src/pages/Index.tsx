@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
@@ -5,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Link } from "react-router-dom";
-import { ArrowRight, Network, Shield, Settings, Cpu, CheckCircle, Users, Award, Briefcase, Send } from "lucide-react";
+import { ArrowRight, Network, Shield, Settings, Cpu, CheckCircle, Users, Award, Briefcase, Send, Star, Quote } from "lucide-react";
 
 const Index = () => {
   const handleContactSubmit = (e: React.FormEvent) => {
@@ -152,7 +153,7 @@ const Index = () => {
             <p className="text-gray-300 text-lg">Comprehensive technology solutions for your business needs</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {[
               {
                 icon: Network,
@@ -201,6 +202,98 @@ const Index = () => {
                 </div>
               </Link>
             ))}
+          </div>
+
+          <div className="text-center">
+            <Button 
+              asChild
+              className="bg-moonlight-medium hover:bg-moonlight-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+            >
+              <Link to="/services">
+                See More Services <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="relative z-10 py-16 px-4 sm:px-6 lg:px-8 bg-moonlight-dark/50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">What Our Clients Say</h2>
+            <p className="text-gray-300 text-lg">Trusted by businesses across Saudi Arabia</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="flex items-center mb-4">
+                <Quote className="h-8 w-8 text-moonlight-lightest mb-4" />
+              </div>
+              <p className="text-gray-300 mb-6 italic">
+                "ASQest transformed our network infrastructure completely. Their expertise in structured cabling is unmatched, and the results speak for themselves."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-moonlight-lightest to-moonlight-light rounded-full flex items-center justify-center mr-4">
+                  <Users className="h-6 w-6 text-moonlight-dark" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold">Ahmed Al-Rashid</h4>
+                  <p className="text-gray-400 text-sm">IT Director, Saudi Tech Corp</p>
+                </div>
+              </div>
+              <div className="flex items-center mt-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="flex items-center mb-4">
+                <Quote className="h-8 w-8 text-moonlight-lightest mb-4" />
+              </div>
+              <p className="text-gray-300 mb-6 italic">
+                "Their annual maintenance service has kept our systems running smoothly for over 3 years. Professional, reliable, and always responsive."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-moonlight-light to-moonlight-medium rounded-full flex items-center justify-center mr-4">
+                  <Users className="h-6 w-6 text-white" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold">Fatima Al-Zahra</h4>
+                  <p className="text-gray-400 text-sm">Operations Manager, Gulf Industries</p>
+                </div>
+              </div>
+              <div className="flex items-center mt-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="flex items-center mb-4">
+                <Quote className="h-8 w-8 text-moonlight-lightest mb-4" />
+              </div>
+              <p className="text-gray-300 mb-6 italic">
+                "Outstanding CCTV and security solutions. They delivered everything on time and within budget. Highly recommend their services."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-moonlight-medium to-moonlight-dark rounded-full flex items-center justify-center mr-4">
+                  <Users className="h-6 w-6 text-white" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold">Omar Hassan</h4>
+                  <p className="text-gray-400 text-sm">Security Manager, Riyadh Bank</p>
+                </div>
+              </div>
+              <div className="flex items-center mt-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>

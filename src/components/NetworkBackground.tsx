@@ -87,7 +87,7 @@ const NetworkBackground = () => {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none z-0"
-      style={{ background: 'linear-gradient(135deg, hsl(240 58% 29%) 0%, hsl(240 41% 48%) 50%, hsl(240 35% 64%) 100%)' }}
+      style={{ backgroundColor: '#0F0E46' }}
     />
   );
 };

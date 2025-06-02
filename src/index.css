@@ -5,46 +5,46 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 240 58% 29%;
+    --foreground: 240 100% 95%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 240 58% 29%;
+    --card-foreground: 240 100% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 240 58% 29%;
+    --popover-foreground: 240 100% 95%;
 
-    --primary: 240 40% 40%;
+    --primary: 240 41% 48%;
     --primary-foreground: 240 100% 95%;
 
-    --secondary: 240 20% 80%;
-    --secondary-foreground: 240 40% 20%;
+    --secondary: 240 35% 64%;
+    --secondary-foreground: 240 58% 29%;
 
-    --muted: 240 20% 80%;
-    --muted-foreground: 240 20% 50%;
+    --muted: 240 35% 64%;
+    --muted-foreground: 240 100% 80%;
 
-    --accent: 240 20% 80%;
-    --accent-foreground: 240 40% 20%;
+    --accent: 240 35% 64%;
+    --accent-foreground: 240 58% 29%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 240 20% 85%;
-    --input: 240 20% 85%;
-    --ring: 240 40% 40%;
+    --border: 240 35% 64%;
+    --input: 240 35% 64%;
+    --ring: 240 41% 48%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 240 58% 29%;
+    --sidebar-foreground: 240 100% 80%;
+    --sidebar-primary: 240 41% 48%;
+    --sidebar-primary-foreground: 240 100% 95%;
+    --sidebar-accent: 240 35% 64%;
+    --sidebar-accent-foreground: 240 58% 29%;
+    --sidebar-border: 240 35% 64%;
+    --sidebar-ring: 240 41% 48%;
 
-    /* Updated Under the Moonlight theme colors - darker palette */
+    /* Moonlight theme colors */
     --moonlight-lightest: 240 100% 80%; /* #CCCCFF */
     --moonlight-light: 240 35% 64%;     /* #A3A3CC */
     --moonlight-medium: 240 41% 48%;    /* #5C5C99 */
@@ -52,41 +52,41 @@
   }
 
   .dark {
-    --background: 240 60% 15%;
+    --background: 240 58% 29%;
     --foreground: 240 100% 95%;
 
-    --card: 240 60% 15%;
+    --card: 240 58% 29%;
     --card-foreground: 240 100% 95%;
 
-    --popover: 240 60% 15%;
+    --popover: 240 58% 29%;
     --popover-foreground: 240 100% 95%;
 
-    --primary: 240 100% 90%;
-    --primary-foreground: 240 60% 15%;
+    --primary: 240 100% 80%;
+    --primary-foreground: 240 58% 29%;
 
-    --secondary: 240 40% 25%;
+    --secondary: 240 41% 48%;
     --secondary-foreground: 240 100% 95%;
 
-    --muted: 240 40% 25%;
-    --muted-foreground: 240 20% 70%;
+    --muted: 240 41% 48%;
+    --muted-foreground: 240 35% 64%;
 
-    --accent: 240 40% 25%;
+    --accent: 240 41% 48%;
     --accent-foreground: 240 100% 95%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 240 40% 25%;
-    --input: 240 40% 25%;
-    --ring: 240 100% 90%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 240 41% 48%;
+    --input: 240 41% 48%;
+    --ring: 240 100% 80%;
+    --sidebar-background: 240 58% 29%;
+    --sidebar-foreground: 240 100% 80%;
+    --sidebar-primary: 240 41% 48%;
+    --sidebar-primary-foreground: 240 100% 95%;
+    --sidebar-accent: 240 35% 64%;
+    --sidebar-accent-foreground: 240 100% 95%;
+    --sidebar-border: 240 35% 64%;
+    --sidebar-ring: 240 41% 48%;
   }
 }
 

@@ -53,7 +53,7 @@ const NetworkBackground = () => {
         // Draw node
         ctx.beginPath();
         ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(34, 197, 94, 0.6)';
+        ctx.fillStyle = 'rgba(204, 204, 255, 0.6)';
         ctx.fill();
 
         // Draw connections
@@ -66,7 +66,7 @@ const NetworkBackground = () => {
             ctx.beginPath();
             ctx.moveTo(node.x, node.y);
             ctx.lineTo(otherNode.x, otherNode.y);
-            ctx.strokeStyle = `rgba(34, 197, 94, ${0.3 * (1 - distance / 150)})`;
+            ctx.strokeStyle = `rgba(204, 204, 255, ${0.3 * (1 - distance / 150)})`;
             ctx.lineWidth = 1;
             ctx.stroke();
           }
@@ -87,7 +87,7 @@ const NetworkBackground = () => {
     <canvas
       ref={canvasRef}
       className="fixed inset-0 pointer-events-none z-0"
-      style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #1e40af 50%, #3b82f6 100%)' }}
+      style={{ background: 'linear-gradient(135deg, hsl(240 58% 29%) 0%, hsl(240 41% 48%) 50%, hsl(240 35% 64%) 100%)' }}
     />
   );
 };

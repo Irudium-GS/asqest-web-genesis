@@ -1,14 +1,21 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import { Link } from "react-router-dom";
-import { ArrowRight, Network, Shield, Settings, Cpu, CheckCircle } from "lucide-react";
+import { ArrowRight, Network, Shield, Settings, Cpu, CheckCircle, Users, Award, Briefcase, Send } from "lucide-react";
 
 const Index = () => {
+  const handleContactSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log("Contact form submitted");
+    // Handle form submission here
+  };
+
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative bg-moonlight-dark">
       <NetworkBackground />
       <Navigation />
       
@@ -48,6 +55,50 @@ const Index = () => {
                   Explore Services
                 </Link>
               </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Success Metrics Section */}
+      <section className="relative z-10 py-16 px-4 sm:px-6 lg:px-8 bg-moonlight-dark/50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Our Success Story</h2>
+            <p className="text-gray-300 text-lg">Trusted by businesses across Saudi Arabia</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-lightest to-moonlight-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-8 w-8 text-moonlight-dark" />
+              </div>
+              <div className="text-4xl font-bold text-moonlight-lightest mb-2">150+</div>
+              <div className="text-gray-300">Successful Projects</div>
+            </div>
+            
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-light to-moonlight-medium rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="h-8 w-8 text-white" />
+              </div>
+              <div className="text-4xl font-bold text-moonlight-lightest mb-2">200+</div>
+              <div className="text-gray-300">Happy Clients</div>
+            </div>
+            
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-medium to-moonlight-dark rounded-full flex items-center justify-center mx-auto mb-4">
+                <Briefcase className="h-8 w-8 text-white" />
+              </div>
+              <div className="text-4xl font-bold text-moonlight-lightest mb-2">25+</div>
+              <div className="text-gray-300">Expert Team Members</div>
+            </div>
+            
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-dark to-moonlight-medium rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="h-8 w-8 text-white" />
+              </div>
+              <div className="text-4xl font-bold text-moonlight-lightest mb-2">10+</div>
+              <div className="text-gray-300">Years Experience</div>
             </div>
           </div>
         </div>
@@ -150,6 +201,76 @@ const Index = () => {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="relative z-10 py-16 px-4 sm:px-6 lg:px-8 bg-moonlight-dark/30">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Get In Touch</h2>
+            <p className="text-gray-300 text-lg">Ready to start your project? Contact us today!</p>
+          </div>
+          
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30">
+            <form onSubmit={handleContactSubmit} className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <label className="block text-white font-medium mb-2">Name</label>
+                  <Input 
+                    type="text" 
+                    placeholder="Your full name"
+                    className="bg-white/10 border-moonlight-light/30 text-white placeholder-gray-400"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="block text-white font-medium mb-2">Email</label>
+                  <Input 
+                    type="email" 
+                    placeholder="your.email@example.com"
+                    className="bg-white/10 border-moonlight-light/30 text-white placeholder-gray-400"
+                    required
+                  />
+                </div>
+              </div>
+              
+              <div>
+                <label className="block text-white font-medium mb-2">Phone</label>
+                <Input 
+                  type="tel" 
+                  placeholder="+966 XXX XXX XXXX"
+                  className="bg-white/10 border-moonlight-light/30 text-white placeholder-gray-400"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-white font-medium mb-2">Service</label>
+                <Input 
+                  type="text" 
+                  placeholder="Which service are you interested in?"
+                  className="bg-white/10 border-moonlight-light/30 text-white placeholder-gray-400"
+                />
+              </div>
+              
+              <div>
+                <label className="block text-white font-medium mb-2">Message</label>
+                <Textarea 
+                  placeholder="Tell us about your project requirements..."
+                  rows={4}
+                  className="bg-white/10 border-moonlight-light/30 text-white placeholder-gray-400"
+                  required
+                />
+              </div>
+              
+              <Button 
+                type="submit"
+                className="w-full bg-moonlight-medium hover:bg-moonlight-light text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                Send Message <Send className="ml-2 h-4 w-4" />
+              </Button>
+            </form>
           </div>
         </div>
       </section>

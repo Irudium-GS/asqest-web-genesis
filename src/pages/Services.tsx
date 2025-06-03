@@ -1,9 +1,8 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
 import { Link } from "react-router-dom";
-import { Network, Shield, Settings, Cpu, Wrench, Zap, Building, Paintbrush, Monitor, Smartphone } from "lucide-react";
+import { Network, Shield, Settings, Cpu, Wrench, Zap, Building, Paintbrush, Monitor, Smartphone, Droplets, Sparkles, ShieldCheck } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -62,6 +61,27 @@ const Services = () => {
       icon: Paintbrush,
       link: "/painting-services",
       color: "from-rose-400 to-pink-500"
+    },
+    {
+      title: "Plumbing Services",
+      description: "Expert plumbing services for installations, repairs, and maintenance of water and drainage systems with 24/7 emergency support.",
+      icon: Droplets,
+      link: "/plumbing-services",
+      color: "from-blue-400 to-cyan-500"
+    },
+    {
+      title: "Cleaning Services",
+      description: "Professional, reliable, and high-quality cleaning services for homes, offices, and commercial spaces using eco-friendly products.",
+      icon: Sparkles,
+      link: "/cleaning-services",
+      color: "from-green-400 to-teal-500"
+    },
+    {
+      title: "Fire Safety Services",
+      description: "Complete fire detection and alarm solutions for residential, commercial, and industrial properties with Saudi Civil Defense compliance.",
+      icon: ShieldCheck,
+      link: "/fire-safety-services",
+      color: "from-red-400 to-orange-500"
     },
     {
       title: "Digital Marketing",

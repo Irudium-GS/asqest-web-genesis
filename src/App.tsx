@@ -15,6 +15,8 @@ import ACMaintenance from "./pages/ACMaintenance";
 import ElectricalMaintenance from "./pages/ElectricalMaintenance";
 import CommercialMaintenance from "./pages/CommercialMaintenance";
 import PaintingServices from "./pages/PaintingServices";
+import CleaningServices from "./pages/CleaningServices";
+import FireSafetyServices from "./pages/FireSafetyServices";
 import DigitalMarketing from "./pages/DigitalMarketing";
 import WebDevelopment from "./pages/WebDevelopment";
 import AboutUs from "./pages/AboutUs";
@@ -41,6 +43,8 @@ const App = () => (
           <Route path="/electrical-maintenance" element={<ElectricalMaintenance />} />
           <Route path="/commercial-maintenance" element={<CommercialMaintenance />} />
           <Route path="/painting-services" element={<PaintingServices />} />
+          <Route path="/cleaning-services" element={<CleaningServices />} />
+          <Route path="/fire-safety-services" element={<FireSafetyServices />} />
           <Route path="/digital-marketing" element={<DigitalMarketing />} />
           <Route path="/web-development" element={<WebDevelopment />} />
           <Route path="/about-us" element={<AboutUs />} />

@@ -67,6 +67,8 @@ const Navigation = () => {
                   <Link to="/electrical-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Electrical Maintenance</Link>
                   <Link to="/commercial-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Commercial Building Maintenance</Link>
                   <Link to="/painting-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Painting and Decorating Services</Link>
+                  <Link to="/cleaning-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Cleaning Services</Link>
+                  <Link to="/fire-safety-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Fire Safety Services</Link>
                 </div>
               </div>
             </div>
@@ -143,6 +145,8 @@ const Navigation = () => {
                     <Link to="/electrical-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Electrical Maintenance</Link>
                     <Link to="/commercial-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Commercial Building Maintenance</Link>
                     <Link to="/painting-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Painting and Decorating Services</Link>
+                    <Link to="/cleaning-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Cleaning Services</Link>
+                    <Link to="/fire-safety-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Fire Safety Services</Link>
                   </div>
                 )}
               </div>

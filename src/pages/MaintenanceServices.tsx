@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
 import { Link } from "react-router-dom";
-import { Wrench, Zap, Building, Paintbrush, Droplets } from "lucide-react";
+import { Wrench, Zap, Building, Paintbrush, Droplets, Sparkles, Shield } from "lucide-react";
 
 const MaintenanceServices = () => {
   const services = [
@@ -36,11 +36,25 @@ const MaintenanceServices = () => {
       color: "from-moonlight-dark to-moonlight-medium"
     },
     {
+      title: "Cleaning Services",
+      description: "Professional, reliable, and high-quality cleaning services for homes, offices, and commercial spaces using eco-friendly products.",
+      icon: Sparkles,
+      link: "/cleaning-services",
+      color: "from-moonlight-light to-moonlight-dark"
+    },
+    {
+      title: "Fire Safety Services",
+      description: "Complete fire detection and alarm solutions for residential, commercial, and industrial properties with Saudi Civil Defense compliance.",
+      icon: Shield,
+      link: "/fire-safety-services",
+      color: "from-moonlight-medium to-moonlight-light"
+    },
+    {
       title: "Plumbing Services",
       description: "Expert plumbing services for installations, repairs, and maintenance of water and drainage systems.",
       icon: Droplets,
       link: "#",
-      color: "from-moonlight-light to-moonlight-dark"
+      color: "from-moonlight-dark to-moonlight-lightest"
     }
   ];
 

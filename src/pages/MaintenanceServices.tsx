@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
@@ -51,9 +50,9 @@ const MaintenanceServices = () => {
     },
     {
       title: "Plumbing Services",
-      description: "Expert plumbing services for installations, repairs, and maintenance of water and drainage systems.",
+      description: "Expert plumbing services for installations, repairs, and maintenance of water and drainage systems with 24/7 emergency support.",
       icon: Droplets,
-      link: "#",
+      link: "/plumbing-services",
       color: "from-moonlight-dark to-moonlight-lightest"
     }
   ];

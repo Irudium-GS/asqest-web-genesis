@@ -81,6 +81,41 @@ const StructureCabling = () => {
             </div>
           </div>
 
+          {/* Services Section */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 mb-16">
+            <h2 className="text-3xl font-bold text-white mb-6">
+              Our Structured Cabling Services Include:
+            </h2>
+            <div className="space-y-4 text-gray-300 leading-relaxed">
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-5 w-5 text-cyan-400 mt-1 flex-shrink-0" />
+                <p><strong className="text-white">Design & Planning</strong> for scalable, future-proof cabling systems</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-5 w-5 text-cyan-400 mt-1 flex-shrink-0" />
+                <p><strong className="text-white">Installation</strong> of Cat5e, Cat6, Cat6A, and Fiber Optic cables</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-5 w-5 text-cyan-400 mt-1 flex-shrink-0" />
+                <p><strong className="text-white">Server Room & Rack Setup</strong> with professional cable management</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-5 w-5 text-cyan-400 mt-1 flex-shrink-0" />
+                <p><strong className="text-white">Testing & Certification</strong> to ensure signal quality and compliance</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <CheckCircle className="h-5 w-5 text-cyan-400 mt-1 flex-shrink-0" />
+                <p><strong className="text-white">System Upgrades & Troubleshooting</strong> for outdated or faulty cabling</p>
+              </div>
+              <div className="mt-6 p-4 bg-gradient-to-r from-cyan-500/20 to-blue-600/20 rounded-lg border border-cyan-500/30">
+                <p className="text-cyan-300 font-semibold flex items-center">
+                  <ArrowRight className="h-4 w-4 mr-2" />
+                  All solutions are tailored to your business environment, needs, and budget.
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Fiber Optic Section */}
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 mb-16">
             <h2 className="text-3xl font-bold text-white mb-6">

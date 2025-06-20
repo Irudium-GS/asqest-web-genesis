@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
@@ -7,92 +8,99 @@ import { Network, Shield, Settings, Cpu, Wrench, Zap, Building, Paintbrush, Moni
 const Services = () => {
   const services = [
     {
-      title: "Structure Cabling",
-      description: "Expert structured cabling services to ensure seamless connectivity and consistently reliable network performance.",
+      title: "Structured Cabling Solutions",
+      description: "Reliable and scalable structured cabling installations designed to support your business's data, voice, and video communications with maximum efficiency and future-proofing.",
       icon: Network,
       link: "/structure-cabling",
       color: "from-cyan-400 to-blue-500"
     },
     {
-      title: "Network Consulting",
-      description: "Experienced networking consultants specialize in delivering tailored solutions for achieving unparalleled network performance and reliability.",
+      title: "Expert Network Consulting Services",
+      description: "Optimize your business network with tailored consulting solutions. We analyze, design, and implement efficient, secure, and scalable networks that drive performance and reduce downtime.",
       icon: Cpu,
       link: "/network-consulting",
       color: "from-blue-400 to-purple-500"
     },
     {
-      title: "CCTV / WiFi / Access",
-      description: "From CCTV to access control and WiFi solutions, we ensure quality and reliability for diverse applications, including banks and libraries.",
+      title: "CCTV, WiFi & Access Control Solutions",
+      description: "Enhance security and connectivity with our integrated CCTV surveillance, reliable WiFi installations, and advanced access control systems — tailored to protect and connect your business efficiently.",
       icon: Shield,
       link: "/cctv-wifi-access",
       color: "from-purple-400 to-pink-500"
     },
     {
-      title: "Annual Maintenance",
-      description: "Stay worry-free with ASQest's Annual Maintenance Service. Our expert IT team ensures smooth operation of your infrastructure.",
+      title: "Comprehensive Annual Maintenance Services",
+      description: "Keep your critical systems running smoothly year-round with our reliable annual maintenance plans — covering HVAC, electrical, plumbing, IT infrastructure, and more to minimize downtime and extend equipment life.",
       icon: Settings,
       link: "/annual-maintenance",
       color: "from-pink-400 to-red-500"
     },
     {
-      title: "AC Maintenance",
-      description: "Professional air conditioning maintenance and repair services to keep your systems running efficiently year-round.",
+      title: "HVAC & AC Maintenance and Repair Services",
+      description: "Ensure year-round comfort and efficiency with our expert HVAC and AC maintenance and repair services. We handle everything from routine inspections to emergency repairs, helping businesses and facilities in Saudi Arabia maintain optimal indoor climate, improve air quality, and reduce energy costs.",
       icon: Wrench,
       link: "/ac-maintenance",
       color: "from-green-400 to-blue-500"
     },
     {
-      title: "Electrical Maintenance",
-      description: "Comprehensive electrical services including repairs, installations, and maintenance for residential and commercial properties.",
+      title: "Professional Electrical Maintenance & Service",
+      description: "Ensure safety and reliability with our comprehensive electrical maintenance and service solutions. From routine inspections to emergency repairs, we keep your electrical systems efficient and compliant with Saudi Arabia's regulations.",
       icon: Zap,
       link: "/electrical-maintenance",
       color: "from-yellow-400 to-orange-500"
     },
     {
-      title: "Commercial Building Maintenance",
-      description: "Complete building maintenance solutions covering HVAC, electrical, plumbing, and general maintenance services.",
+      title: "Commercial building maintenance",
+      description: "Maintain a safe, efficient, and welcoming environment with our full-service commercial building maintenance. We handle everything from HVAC and electrical to cleaning, plumbing, and facility upkeep tailored for businesses across Saudi Arabia.",
       icon: Building,
       link: "/commercial-maintenance",
       color: "from-indigo-400 to-purple-500"
     },
     {
-      title: "Painting & Decorating",
-      description: "Professional painting and decorating services to transform your space with high-quality finishes and expert craftsmanship.",
+      title: "Professional Painting & Interior Decorating Services",
+      description: "Enhance your space with expert painting and interior decorating solutions. From fresh coats to stylish designs, we transform commercial and residential properties across Saudi Arabia to reflect your brand and style.",
       icon: Paintbrush,
       link: "/painting-services",
       color: "from-rose-400 to-pink-500"
     },
     {
-      title: "Plumbing Services",
-      description: "Expert plumbing services for installations, repairs, and maintenance of water and drainage systems with 24/7 emergency support.",
+      title: "Reliable Plumbing Services",
+      description: "From routine repairs to full installations, our expert plumbing services ensure your commercial or residential facilities in Saudi Arabia run smoothly with safe and efficient water systems.",
       icon: Droplets,
       link: "/plumbing-services",
       color: "from-blue-400 to-cyan-500"
     },
     {
-      title: "Cleaning Services",
-      description: "Professional, reliable, and high-quality cleaning services for homes, offices, and commercial spaces using eco-friendly products.",
+      title: "Professional Cleaning & Housekeeping Services",
+      description: "We provide professional cleaning and housekeeping solutions for hotels, offices, companies, tourist villas, and residential properties across Saudi Arabia — wherever you need us, we ensure spotless, hygienic, and welcoming environments.",
       icon: Sparkles,
       link: "/cleaning-services",
       color: "from-green-400 to-teal-500"
     },
     {
-      title: "Fire Safety Services",
-      description: "Complete fire detection and alarm solutions for residential, commercial, and industrial properties with Saudi Civil Defense compliance.",
+      title: "Reliable Fire Safety Services",
+      description: "Protect your business and property with our comprehensive fire safety solutions — including fire alarm installation, suppression systems, inspections, and emergency planning — serving clients across Saudi Arabia.",
       icon: ShieldCheck,
       link: "/fire-safety-services",
       color: "from-red-400 to-orange-500"
     },
     {
-      title: "Digital Marketing",
-      description: "Comprehensive digital marketing strategies to boost your online presence and drive business growth through innovative solutions.",
+      title: "Results-Driven Digital Marketing Services",
+      description: "Boost your brand's online presence with our tailored digital marketing solutions — including SEO, social media, PPC, content marketing, and more — designed to grow your business across Saudi Arabia.",
       icon: Monitor,
       link: "/digital-marketing",
       color: "from-cyan-400 to-teal-500"
     },
     {
-      title: "Web Development",
-      description: "Custom website development services including e-commerce platforms and business websites designed for success.",
+      title: "Creative Graphic Design & Branding Services",
+      description: "Elevate your brand with our professional graphic design and branding solutions. From logos to marketing materials, we create impactful visuals that resonate with your audience across Saudi Arabia.",
+      icon: Smartphone,
+      link: "/web-development",
+      color: "from-violet-400 to-purple-500"
+    },
+    {
+      title: "Custom Web & App Development Services",
+      description: "Build powerful, user-friendly websites and mobile apps tailored to your business needs. Our expert development team delivers scalable, secure, and innovative digital solutions across Saudi Arabia.",
       icon: Smartphone,
       link: "/web-development",
       color: "from-violet-400 to-purple-500"
@@ -153,7 +161,7 @@ const Services = () => {
               Need a Custom Solution?
             </h2>
             <p className="text-gray-300 text-lg mb-8">
-              Contact us to discuss your specific requirements and get a tailored solution for your business.
+              Contact us today to discuss your unique business requirements and receive a tailored web or app development solution designed to help you succeed.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 

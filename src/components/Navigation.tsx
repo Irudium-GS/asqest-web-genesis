@@ -69,8 +69,8 @@ const Navigation = () => {
                 <div className="py-2">
                   <Link to="/annual-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Annual Maintenance Contracts</Link>
                   <Link to="/ac-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">HVAC & AC Maintenance</Link>
-                  <Link to="/electrical-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Electrical Maintenance</Link>
-                  <Link to="/plumbing-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Plumbing Maintenance</Link>
+                  <Link to="/electrical-maintenance-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Electrical Maintenance</Link>
+                  <Link to="/plumbing-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Plumbing Maintenance</Link>
                   <Link to="/facility-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Facility Maintenance</Link>
                 </div>
               </div>
@@ -151,8 +151,8 @@ const Navigation = () => {
                   <div className="ml-4 space-y-1">
                     <Link to="/annual-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Annual Maintenance Contracts</Link>
                     <Link to="/ac-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">HVAC & AC Maintenance</Link>
-                    <Link to="/electrical-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Electrical Maintenance</Link>
-                    <Link to="/plumbing-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Plumbing Maintenance</Link>
+                    <Link to="/electrical-maintenance-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Electrical Maintenance</Link>
+                    <Link to="/plumbing-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Plumbing Maintenance</Link>
                     <Link to="/facility-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Facility Maintenance</Link>
                   </div>
                 )}

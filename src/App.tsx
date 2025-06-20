@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -13,6 +12,8 @@ import AnnualMaintenance from "./pages/AnnualMaintenance";
 import MaintenanceServices from "./pages/MaintenanceServices";
 import ACMaintenance from "./pages/ACMaintenance";
 import ElectricalMaintenance from "./pages/ElectricalMaintenance";
+import ElectricalMaintenanceServices from "./pages/ElectricalMaintenanceServices";
+import PlumbingMaintenance from "./pages/PlumbingMaintenance";
 import CommercialMaintenance from "./pages/CommercialMaintenance";
 import PaintingServices from "./pages/PaintingServices";
 import PaintingInteriorWorks from "./pages/PaintingInteriorWorks";
@@ -26,6 +27,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
 import PlumbingServices from "./pages/PlumbingServices";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +37,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/services" element={<Services />} />
@@ -45,6 +48,8 @@ const App = () => (
           <Route path="/maintenance-services" element={<MaintenanceServices />} />
           <Route path="/ac-maintenance" element={<ACMaintenance />} />
           <Route path="/electrical-maintenance" element={<ElectricalMaintenance />} />
+          <Route path="/electrical-maintenance-services" element={<ElectricalMaintenanceServices />} />
+          <Route path="/plumbing-maintenance" element={<PlumbingMaintenance />} />
           <Route path="/commercial-maintenance" element={<CommercialMaintenance />} />
           <Route path="/painting-services" element={<PaintingServices />} />
           <Route path="/painting-interior-works" element={<PaintingInteriorWorks />} />

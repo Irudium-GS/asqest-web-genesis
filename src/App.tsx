@@ -11,7 +11,7 @@ import CCTVWifiAccess from "./pages/CCTVWifiAccess";
 import AnnualMaintenance from "./pages/AnnualMaintenance";
 import MaintenanceServices from "./pages/MaintenanceServices";
 import ACMaintenance from "./pages/ACMaintenance";
-import ElectricalMaintenance from "./pages/ElectricalMaintenance";
+import ElectricalServices from "./pages/ElectricalServices";
 import ElectricalMaintenanceServices from "./pages/ElectricalMaintenanceServices";
 import PlumbingMaintenance from "./pages/PlumbingMaintenance";
 import CommercialMaintenance from "./pages/CommercialMaintenance";
@@ -47,7 +47,7 @@ const App = () => (
           <Route path="/annual-maintenance" element={<AnnualMaintenance />} />
           <Route path="/maintenance-services" element={<MaintenanceServices />} />
           <Route path="/ac-maintenance" element={<ACMaintenance />} />
-          <Route path="/electrical-maintenance" element={<ElectricalMaintenance />} />
+          <Route path="/electrical-services" element={<ElectricalServices />} />
           <Route path="/electrical-maintenance-services" element={<ElectricalMaintenanceServices />} />
           <Route path="/plumbing-maintenance" element={<PlumbingMaintenance />} />
           <Route path="/commercial-maintenance" element={<CommercialMaintenance />} />

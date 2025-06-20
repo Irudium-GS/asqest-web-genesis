@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
@@ -52,7 +51,7 @@ const Navigation = () => {
                   <Link to="/network-consulting" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Network Consulting</Link>
                   <Link to="/cctv-wifi-access" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">CCTV & Access Control</Link>
                   <Link to="/painting-interior-works" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Painting & Interior Works</Link>
-                  <Link to="/electrical-maintenance" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Electrical Services</Link>
+                  <Link to="/electrical-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Electrical Services</Link>
                   <Link to="/plumbing-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Plumbing Services</Link>
                   <Link to="/cleaning-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Cleaning & Housekeeping</Link>
                   <Link to="/fire-safety-services" className="block px-4 py-2 text-gray-800 hover:bg-moonlight-lightest/20 hover:text-moonlight-dark transition-colors">Fire Safety Services</Link>
@@ -132,7 +131,7 @@ const Navigation = () => {
                     <Link to="/network-consulting" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Network Consulting</Link>
                     <Link to="/cctv-wifi-access" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">CCTV & Access Control</Link>
                     <Link to="/painting-interior-works" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Painting & Interior Works</Link>
-                    <Link to="/electrical-maintenance" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Electrical Services</Link>
+                    <Link to="/electrical-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Electrical Services</Link>
                     <Link to="/plumbing-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Plumbing Services</Link>
                     <Link to="/cleaning-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Cleaning & Housekeeping</Link>
                     <Link to="/fire-safety-services" className="block px-3 py-2 text-moonlight-light hover:text-moonlight-lightest">Fire Safety Services</Link>

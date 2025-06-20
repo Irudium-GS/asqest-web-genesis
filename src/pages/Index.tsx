@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
@@ -26,17 +25,17 @@ const Index = () => {
           <div className="text-center">
             <div className="mb-8">
               <span className="inline-block px-4 py-2 bg-moonlight-medium/20 text-moonlight-lightest rounded-full text-sm font-medium mb-4 animate-pulse">
-                Boost Your Network
+                Smart Network & Facility Solutions in Saudi Arabia
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              Optimized Network interface<br />
+              Complete Network & Facility Services<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-moonlight-lightest to-moonlight-light animate-pulse">
-                Engineered for High-Speed Performance
+                for Modern Businesses
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Transform your business with cutting-edge network solutions, security systems, and maintenance services designed for the modern enterprise.
+              Transform your business with reliable network solutions, advanced security systems, and facility maintenance — tailored for companies in Saudi Arabia.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
@@ -56,6 +55,60 @@ const Index = () => {
                   Explore Services
                 </Link>
               </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Introduction */}
+      <section className="relative z-10 py-16 px-4 sm:px-6 lg:px-8 bg-moonlight-dark/50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            Welcome to ASQest
+          </h2>
+          <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8">
+            ASQest — short for Ali Saleh Al Qahthani — is a Saudi-owned company delivering trusted facility management, IT infrastructure, and digital solutions across the Kingdom of Saudi Arabia. We proudly serve residential, commercial, and government sectors with professionalism, precision, and a deep understanding of Saudi Arabia's unique business needs.
+          </p>
+          <p className="text-lg text-gray-300 max-w-4xl mx-auto leading-relaxed">
+            Your trusted provider of end-to-end facility maintenance, IT infrastructure, and digital solutions in Saudi Arabia. We serve homes, offices, commercial buildings, and government entities with unmatched professionalism and care.
+          </p>
+        </div>
+      </section>
+
+      {/* Why Choose Us Section */}
+      <section className="relative z-10 py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Why Choose Us</h2>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-lightest to-moonlight-light rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-8 w-8 text-moonlight-dark" />
+              </div>
+              <h3 className="text-lg font-semibold text-moonlight-lightest mb-2">Experienced Technicians & Engineers</h3>
+            </div>
+            
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-light to-moonlight-medium rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="h-8 w-8 text-white" />
+              </div>
+              <h3 className="text-lg font-semibold text-moonlight-lightest mb-2">24/7 Support & Emergency Response</h3>
+            </div>
+            
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-medium to-moonlight-dark rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="h-8 w-8 text-white" />
+              </div>
+              <h3 className="text-lg font-semibold text-moonlight-lightest mb-2">Competitive Pricing with Annual Plans</h3>
+            </div>
+            
+            <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-moonlight-light/30 transform hover:scale-105 transition-transform duration-300">
+              <div className="w-16 h-16 bg-gradient-to-r from-moonlight-dark to-moonlight-medium rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="h-8 w-8 text-white" />
+              </div>
+              <h3 className="text-lg font-semibold text-moonlight-lightest mb-2">Serving All Cities in Saudi Arabia</h3>
             </div>
           </div>
         </div>

@@ -4,29 +4,29 @@ import Footer from "@/components/Footer";
 import NetworkBackground from "@/components/NetworkBackground";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Monitor, Search, Share2, Target, TrendingUp, ArrowRight, Mail } from "lucide-react";
+import { Paintbrush, Palette, Home, Building, CheckCircle, ArrowRight } from "lucide-react";
 
-const DigitalMarketing = () => {
+const PaintingInteriorWorks = () => {
   const services = [
     {
-      title: "Search Engine Optimization (SEO)",
-      description: "Improve your website's visibility and ranking on search engines to attract more organic traffic.",
-      icon: Search
+      title: "Interior Painting",
+      description: "Professional interior painting services for homes and commercial spaces.",
+      icon: Home
     },
     {
-      title: "Social Media Marketing",
-      description: "Engage with your audience across all major social media platforms and build brand awareness.",
-      icon: Share2
+      title: "Exterior Painting",
+      description: "Weather-resistant exterior painting to protect and beautify your property.",
+      icon: Building
     },
     {
-      title: "Pay-Per-Click (PPC) Advertising",
-      description: "Targeted advertising campaigns that deliver immediate results and measurable ROI.",
-      icon: Target
+      title: "Color Consultation",
+      description: "Expert color consultation to help you choose the perfect palette for your space.",
+      icon: Palette
     },
     {
-      title: "Content Marketing",
-      description: "Create valuable, relevant content that attracts and retains your target audience.",
-      icon: TrendingUp
+      title: "Decorative Finishes",
+      description: "Specialized decorative painting techniques and custom finishes.",
+      icon: Paintbrush
     }
   ];
 
@@ -40,10 +40,10 @@ const DigitalMarketing = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Digital <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Marketing</span>
+              Painting & <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">Interior Works</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Results-driven digital marketing services to grow your business online
+              Professional painting and interior decoration services to transform your space
             </p>
           </div>
         </div>
@@ -55,18 +55,18 @@ const DigitalMarketing = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-white">
-                Boost Your Online Presence
+                Transform Your Space with Color
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                Boost your brand's online presence with our tailored digital marketing solutions — including SEO, social media, PPC, content marketing, and more — designed to grow your business across Saudi Arabia.
+                Enhance your space with expert painting and interior decorating solutions. From fresh coats to stylish designs, we transform commercial and residential properties across Saudi Arabia to reflect your brand and style.
               </p>
               <p className="text-gray-300 leading-relaxed">
-                Our data-driven approach ensures that every marketing dollar is spent effectively, delivering measurable results that contribute to your business growth and success.
+                Our skilled professionals deliver exceptional results using premium materials and proven techniques, ensuring your space looks beautiful and stands the test of time.
               </p>
             </div>
             <div className="relative">
               <div className="w-full h-96 bg-gradient-to-br from-cyan-500/20 to-blue-600/20 rounded-lg backdrop-blur-sm border border-cyan-500/30 flex items-center justify-center transform hover:scale-105 transition-transform duration-500">
-                <Monitor className="h-32 w-32 text-cyan-400 animate-pulse" />
+                <Paintbrush className="h-32 w-32 text-cyan-400 animate-pulse" />
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const DigitalMarketing = () => {
           {/* Services Section */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-white text-center mb-12">
-              Our Digital Marketing Services
+              Our Painting Services
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {services.map((service, index) => (
@@ -100,32 +100,14 @@ const DigitalMarketing = () => {
             </div>
           </div>
 
-          {/* Contact Section */}
-          <div className="mb-16">
-            <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 border border-white/20 text-center">
-              <Mail className="h-16 w-16 text-cyan-400 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-white mb-4">Contact for Digital Services</h3>
-              <p className="text-gray-300 mb-6">
-                For digital marketing and digital services inquiries, reach out to our specialized team:
-              </p>
-              <a 
-                href="mailto:Shyed@asqest.com"
-                className="inline-flex items-center text-cyan-400 hover:text-cyan-300 text-lg font-semibold transition-colors"
-              >
-                Shyed@asqest.com
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
-            </div>
-          </div>
-
           {/* CTA Section */}
           <div className="text-center">
             <div className="bg-gradient-to-r from-cyan-500/20 to-blue-600/20 rounded-2xl p-8 backdrop-blur-sm border border-cyan-500/30">
               <h2 className="text-3xl font-bold text-white mb-4">
-                Ready to Grow Your Business Online?
+                Ready to Transform Your Space?
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-                Contact us today for comprehensive digital marketing services.
+                Contact us today for professional painting and interior decoration services.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
@@ -140,8 +122,8 @@ const DigitalMarketing = () => {
                   asChild
                   className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
                 >
-                  <Link to="/web-development">
-                    View Web Development
+                  <Link to="/services">
+                    View All Services
                   </Link>
                 </Button>
               </div>
@@ -155,4 +137,4 @@ const DigitalMarketing = () => {
   );
 };
 
-export default DigitalMarketing;
+export default PaintingInteriorWorks;
